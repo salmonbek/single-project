@@ -28,7 +28,7 @@ button {
   position: fixed;
   top: 0px;
   width: 100%;
-  z-index: 100;
+  z-index: 150;
   .container {
     .header-top__section {
       padding: 10px 0px;
@@ -70,7 +70,7 @@ button {
   right: 0;
   left: 0;
   backdrop-filter: blur(10px);
-  z-index: 100;
+  z-index: 150;
   box-shadow: 15px 15px 15px rgb(229, 229, 229);
   .container {
     .navigation {
