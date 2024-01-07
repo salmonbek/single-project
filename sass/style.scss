@@ -470,7 +470,8 @@ ul {
             .card-item-content__flex {
               display: flex;
               align-items: center;
-              justify-content: space-between;
+              gap: 30px;
+              // justify-content: space-between;
               margin-top: 4px;
               margin-bottom: 8px;
             }
@@ -507,11 +508,11 @@ ul {
 @media (max-width: 500px) {
   .main {
     .card {
+      text-align: center;
       .container {
         .card-item {
-          width: 100%;
-          margin-left: 50px;
-          margin-right: 50px;
+          margin-left: 39px;
+          // margin-right: 50px;
           .card-item-content {
             text-align: center;
           }

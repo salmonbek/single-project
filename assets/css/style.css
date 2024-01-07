@@ -514,9 +514,7 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  gap: 30px;
   margin-top: 4px;
   margin-bottom: 8px;
 }
@@ -545,10 +543,11 @@ ul {
 }
 
 @media (max-width: 500px) {
+  .main .card {
+    text-align: center;
+  }
   .main .card .container .card-item {
-    width: 100%;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 39px;
   }
   .main .card .container .card-item .card-item-content {
     text-align: center;
